@@ -49,6 +49,7 @@ const CartComp = ({
 
   useEffect(() => {
     PriceSubTotal();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allProductsForCart]);
 
   function handleRemove(product_id: string) {
@@ -83,6 +84,7 @@ const CartComp = ({
       });
       setAllProductsForCart(updatedData);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cartArray]);
 
   async function handleDecrementByOne(product_id: string, price: any) {
