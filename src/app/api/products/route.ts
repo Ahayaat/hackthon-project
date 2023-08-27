@@ -21,7 +21,6 @@ export async function GET(request: NextRequest) {
     }
     return NextResponse.json({ productArray: "Not found" });
   }
-
   return NextResponse.json({ orignalData });
 }
 

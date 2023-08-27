@@ -10,6 +10,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "hackathon-project-n4k2oz8ss-ahayaat.vercel.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "avatars.githubusercontent.com",
         port: "",
         pathname: "/**",
